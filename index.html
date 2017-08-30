@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculo IMC</title>
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+</head>
+<body>
+
+	<ul class="nav">
+		<li><a href="" id="calc">Calculo do IMC</a></li>
+	</ul>
+
+	<div class="modal-imc">
+		<div class="modal">
+
+			<img src="public/img/closebtn.png" class="modal-close" alt="[x]">
+	
+			<div id="resultado"></div>
+
+			<div class="modal-content">
+				<fieldset>
+				 	<legend>Calculadora de IMC</legend>
+	      				<p>Digite sua altura em Metros (ex: 1.70 metros)</p>
+						<input type="text" name="altura" id="altura" class="imcInput">
+
+						<p class="textoPeso textModal"> Digite o seu peso em quilos </p>
+						<input type="text" name="peso" id="peso" class="imcInput">
+			
+						<p class="textoSexo textModal">Digite o seu sexo</p>
+						
+						<select id="sexo">
+						  <option value="" class="Selecione">Selecione</option>
+						  <option value="1" class="Feminino">Feminino</option>
+						  <option value="2" class="Masculino">Masculino</option>
+						</select>
+				</fieldset>
+			</div>
+
+			<div class="modal-footer">
+				<button id="calc-imc"> Calcular IMC </button>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="public/js/script.js"></script>
+</body>
+</html>

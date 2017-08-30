@@ -1,0 +1,123 @@
+body{
+	background: #28D2CF;
+}
+
+.modal-imc{
+	display: none;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	z-index: 20;
+	opacity: 0.9;
+}
+
+.modal{
+	background: #fff;
+	width: 400px;
+	/*height: 330px;*/
+	padding: 50px 30px;
+	margin: 70px auto;
+	border-radius: 4px;
+	opacity: 1 !important;
+	z-index: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -300px;
+	margin-left: -250px;
+	overflow: auto;
+}
+
+.modal-close{
+	height: 15px;
+	width: 15px;
+	right: 5px;
+	top: 5px;
+	position: absolute;
+	float: right;
+}
+
+.imcInput{
+	border-radius: 5px;
+	width: 300px;
+}
+
+#resultado{
+	background: #D8D8D8;
+	height: 70px;
+	width: 390px;
+	margin-top: -25px;
+	padding: 5px 5px;
+	text-align:center;
+}
+
+#sexo{
+	border-radius: 10px;
+	width: 150px;
+	height: 35px;
+	background-color: white;
+    color: black;
+    border: 3px solid #D8D8D8;
+}
+
+#sexo:hover{
+	background: #D8D8D8;
+}
+
+input[type=text]:focus {
+    border: 1px solid red;
+}
+
+.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	width: 90%;
+	height: 50px;
+	margin-left: 5%;
+}
+
+li{
+	float: left;
+}
+
+#calc{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#calc:hover{
+	background-color: #ecf0f1;
+	height: 50px;
+	color:black;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	font-variant: small-caps;
+}
+
+.modal-footer{
+	right: 32px;
+	top: 375px;
+	position: absolute;
+	float: right;
+}
+
+#calc-imc{
+	border-radius: 10px;
+	width: 150px;
+	height: 35px;
+	background-color: white;
+    color: black;
+    border: 3px solid #D8D8D8;
+}
+
+#calc-imc:hover{
+	background: #D8D8D8;
+}
